@@ -1,19 +1,22 @@
-update=Sen 22 Peb 2016 04:52:42  MYT
+update=Wed 19 Jul 2017 03:10:48 PM MYT
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[general]
+[eeschema]
 version=1
+LibDir=
+[eeschema/libraries]
+LibName1=/media/phangmoh/Sih Sin/Rocket Scream/Rocket Scream - New/Development/Core/RocketScreamKicadLibrary
 [pcbnew]
 version=1
-PageLayoutDescrFile=SchematicLayout.kicad_wks
+PageLayoutDescrFile=/media/phangmoh/Sih Sin/Rocket Scream/Rocket Scream - New/Development/Core/SchematicLayout.kicad_wks
 LastNetListRead=MINI-ULTRA-PRO-0R10.net
 PadDrill=0
 PadDrillOvalY=0
-PadSizeH=0.75
-PadSizeV=0.75
+PadSizeH=0.635
+PadSizeV=1.27
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
@@ -25,19 +28,15 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[general]
+version=1
 [schematic_editor]
 version=1
-PageLayoutDescrFile=SchematicLayout.kicad_wks
+PageLayoutDescrFile=/media/phangmoh/Sih Sin/Rocket Scream/Rocket Scream - New/Development/Core/SchematicLayout.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+NetFmtName=
+SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=MINI-ULTRA-PRO-cache
