@@ -79,7 +79,7 @@ const lmic_pinmap lmic_pins = {
   .nss = 5,
   .rxtx = LMIC_UNUSED_PIN,
   .rst = 3,
-  .dio = {2, 6, 7},
+  .dio = {2, 6, LMIC_UNUSED_PIN},
 };
 
 void onEvent (ev_t ev)
@@ -245,8 +245,8 @@ void setup()
   pinMode(0, INPUT_PULLUP);
   pinMode(1, INPUT_PULLUP);
 
-  // D8-D13, A0(D14)-A5(D19), SDA(D20), SCL(D21), MISO(D22)
-  for (pinNumber = 8; pinNumber <= 22; pinNumber++)
+  // D7-D13, A0(D14)-A5(D19), SDA(D20), SCL(D21), MISO(D22)
+  for (pinNumber = 7; pinNumber <= 22; pinNumber++)
   {
     pinMode(pinNumber, INPUT_PULLUP);
   }
