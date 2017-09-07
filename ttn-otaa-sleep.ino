@@ -274,7 +274,7 @@ void setup()
   for (count = EUI64_MAC_LENGTH; count > 0; count--)
   {
     Serial.print("0x");
-    if (DEVEUI[count] <= 0x0F) Serial.print("0");
+    if (DEVEUI[count - 1] <= 0x0F) Serial.print("0");
     Serial.print(DEVEUI[count - 1], HEX);
     Serial.print(" ");
   }
