@@ -3,7 +3,7 @@
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (fp_text value LOGO-KICAD (at 0.75 0) (layer F.SilkS) hide
-    (effects (font (thickness 0.3)))
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
   (fp_poly (pts (xy 4.125235 0.031016) (xy 4.177815 0.0531) (xy 4.255296 0.089867) (xy 4.243916 1.025267)
     (xy 4.15925 1.073202) (xy 4.061908 1.111203) (xy 3.961396 1.121617) (xy 3.870836 1.104272)
